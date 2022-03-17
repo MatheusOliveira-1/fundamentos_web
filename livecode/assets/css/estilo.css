@@ -1,0 +1,33 @@
+h1{  
+    color: #670c8b;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+section{
+    color: #838b0c;
+    
+}
+
+.imagens{
+
+    height: 250px;
+    width: 250px;
+    border: 10px #838b0c solid;
+    margin: 20px;
+    padding: 10px;
+   
+}
+
+.container-flex{
+    color: #670c8b;
+    display: flex;
+}
+
+.flex2{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+ 
+}
