@@ -12,12 +12,12 @@ section{
 
 .imagens{
 
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     border: 10px #838b0c solid;
     margin: 20px;
     padding: 10px;
-   
+    
 }
 
 .container-flex{
@@ -26,8 +26,15 @@ section{
 }
 
 .flex2{
-    margin: 50px;
+    margin: 20px;
     display: flex;
     flex-direction: column;
  
+}
+
+.buttonstyle{
+    
+    color: #ffffff;
+    background-color: #000000;
+    font-weight: bold;
 }
