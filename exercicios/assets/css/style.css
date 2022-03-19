@@ -1,5 +1,9 @@
 /*Estilos gerais*/
 
+.ffamily{
+     font-family: Pixel
+}
+
 .fc-white{
      color: #ffffff;
 }
@@ -79,7 +83,7 @@
      text-align: center;
 }
 
-.bdrd-300{
+.bdr-300{
      border-radius: 300px;
 }
 
@@ -97,9 +101,12 @@
      margin-bottom: 50px;
 }
 
+.margr-50{
+     margin-right: 50px;
+}
+
 /*Estilos da página contato.html*/
 
 .margl-50 {
      margin-left: 50px;
 }
-
