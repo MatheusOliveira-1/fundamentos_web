@@ -18,6 +18,7 @@ function validaNome(){
     if(nome.value.length < 3){
         txtNome.style.color = "red"
         txtNome.innerHTML = "Nome inválido"
+        nomeOk = false
 
     } else {
         txtNome.style.color = "green"
@@ -27,6 +28,7 @@ function validaNome(){
 
     if(nome.value.length == 0){
         txtNome.innerHTML = ""
+        nomeOk = false
     }
 }
 
@@ -35,6 +37,7 @@ function validaEmail(){
     if(email.value.indexOf('@') == -1 || email.value.indexOf('.') == -1){
         txtEmail.style.color = "red"
         txtEmail.innerHTML = "E-mail inválido"
+        emailOk = false
 
     } else {
         txtEmail.style.color = "green"
@@ -44,6 +47,7 @@ function validaEmail(){
 
     if(email.value.length == 0){
         txtNome.innerHTML = ""
+        emailOk = false
     }
 }
 
@@ -52,10 +56,12 @@ function validaAssunto(){
     if(assunto.value.length > 100){
         txtAssunto.style.color = "red"
         txtAssunto.innerHTML = "O texto é muito grande, digite no máximo 100 caracteres!"
+        assuntoOk = false
 
     }else if(assunto.value.length < 10 && assunto.value.length > 0){
         txtAssunto.style.color = "red"
         txtAssunto.innerHTML = "O texto é muito curto, digite no mínimo 10 caracteres"
+        assuntoOk = false
 
 
     }else if(assunto.value.length >= 10){
@@ -65,6 +71,7 @@ function validaAssunto(){
 
     } else {
         txtAssunto.innerHTML = ""
+        assuntoOk = false  
     }
 }
 
